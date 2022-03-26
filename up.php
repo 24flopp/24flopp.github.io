@@ -2,7 +2,7 @@
  
 $secret_key = $SHAREX_KEY; //Set this as your secret key, to prevent others uploading to your server.
 $sharexdir = ""; //This is your file dir, also the link.. Not very important.
-$domain_url = 'https://24flopp.ml';//Add your website here, including https://
+$domain_url = 'https://24flopp.ml/i/';//Add your website here, including https://
 $lengthofstring = 8; //Length of the file name
  
 function RandomString($length) {
