@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script language="javascript">
+            function WriteToFile()
+            { 
+              var url = window.location.href
+              var name = url.split("https://24flopp.ml/redirect-creator?name=").toString()
+              var url2 = url.split("https://24flopp.ml/redirect-creator?name=" + name + "&url=").toString()
+              if url2 == undefined return;
+              if name == undefined return;
+              set fso = CreateObject("Scripting.FileSystemObject");  
+    set s = fso.CreateTextFile("./" + name, True);
+    s.writeline("<meta http-equiv="refresh" content='0; url=" + url2 + "'>");
+    s.Close();
+              return "Created file";
+             }
+         </script>
+    </head>
+   <body onLoad="WriteToFile()">
+   </body>
+</html>
