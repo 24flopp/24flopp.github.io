@@ -1,6 +1,6 @@
 <?php
 $secret_key = "24FLOPP_SECRET_KEY0!"; //no use pro favor
-$sharexdir = "/i"; //This is your file dir, also the link..
+$sharexdir = ""; //This is your file dir, also the link..
 $domain_url = 'http://24flopp.ml/'; //This is where you type in your domain
 $lengthofstring = 8; //Length of the file name
 
