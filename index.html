@@ -1,6 +1,11 @@
-nothing to see here
-consider donating to me on rblx 24flopp.ml/donate :)
+<p id="text">nothing to see here
+consider donating to me on rblx 24flopp.ml/donate :)</p>
     <title>24Flopp.ml</title>
     <meta content="24Flopp.ml" property="og:title" />
     <meta content="donate plz 24flopp.ml/donate thats basically it" property="og:description" />
     <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+    <script>
+        if (req.query.text != null){
+            document.getElementById("text").innerHTML = req.query.text;
+        }
+</script>
