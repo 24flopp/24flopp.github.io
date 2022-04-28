@@ -8,4 +8,8 @@
         if (params.get("text") != null){
             document.getElementById("text").innerHTML = params.get("text");
         }
+        if (params.get("sus") != null && params.get("sus") == "true"){
+            alert("This page is too sussy to be entered.")
+            window.location.reload();
+        }
 </script>
